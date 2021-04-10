@@ -4,7 +4,13 @@ body {
 
 /* Title Section */
 
+.navbar {
+    background-color: black;
+}
+
 .icone-navbar{
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
     margin-right: 0px;
     margin-left: 2rem;
 }
@@ -23,5 +29,28 @@ body {
 }
 
 .header-text {
-    margin-top: 25%;
+    margin-top: 22rem;
+}
+
+/* skills Section */
+
+.row {
+    margin: 5rem 7rem;
+}
+
+.skillsBox {
+    text-align: center;
+}
+
+.skillsTitle {
+ padding: 1.75rem 0 1.75rem 0
+}
+
+.skills-icons {
+
+}
+
+
+.skilsText {
+    padding: ;
 }
