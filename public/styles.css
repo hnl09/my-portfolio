@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Title Section */
+
+.icone-navbar{
+    margin-right: 0px;
+    margin-left: 2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.banner-img {
+    background-image: url(./img/banner-img.jpg);
+    background-size: cover;
+}
+
+.container-fluid {
+    padding: 0px 0px 0px 0px;
+}
+
+.header-text {
+    margin-top: 25%;
+}
