@@ -4,9 +4,6 @@ body {
 
 /* Title Section */
 
-.navbar {
-    background-color: black;
-}
 
 .icone-navbar{
     font-family: 'Anton', sans-serif;
@@ -22,6 +19,16 @@ body {
 .banner-img {
     background-image: url(./img/banner-img.jpg);
     background-size: cover;
+    
+}
+
+/* Opacidade para imagem */
+
+.mask{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.7);
 }
 
 .container-fluid {
@@ -29,10 +36,11 @@ body {
 }
 
 .header-text {
-    margin-top: 22rem;
+    margin: 22rem 2rem 0 2rem;
 }
 
-/* skills Section */
+
+/* Skills Section */
 
 .row {
     margin: 5rem 7rem;
@@ -46,11 +54,22 @@ body {
  padding: 1.75rem 0 1.75rem 0
 }
 
+/*
 .skills-icons {
 
 }
 
-
 .skilsText {
-    padding: ;
+
+}
+*/
+
+/* About Section */
+
+#about {
+    background-color: black;
+}
+
+.highlight-text {
+ color: rgb(52, 89, 255);
 }
