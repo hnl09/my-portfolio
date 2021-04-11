@@ -22,16 +22,13 @@
   <section id="title">
     <!-- Nav Bar ADD fixed-top later -->
     <nav class="navbar navbar-expand-lg navbar-dark p-md-3">
-      <a class="navbar-brand icone-navbar text-white">HNL</a>
+      <a class="navbar-brand icone-navbar text-white nav-link" href="#title">HNL</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse " id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
-          </li>
           <li class="nav-item active">
             <a class="nav-link" href="#">Sobre</a>
           </li>
@@ -48,13 +45,13 @@
     <div>
       <div class="banner-img w-100 vh-100 d-flex justify-content-centeralign-items-center">
         <div class="mask">
-        <div class="container-fluid">
-          <div class="text-center header-text">
-            <h1 class="text-white">Olá, meu nome é Henrique</h1>
-            <h2 class="text-white">Sou um estudante de desenvolvimento Web</h2>
+          <div class="container-fluid">
+            <div class="text-center header-text">
+              <h1 class="text-white">Olá, meu nome é Henrique</h1>
+              <h2 class="text-white">Sou um estudante de desenvolvimento Web</h2>
+            </div>
           </div>
         </div>
-      </div>
       </div>
 
 
@@ -107,11 +104,20 @@
   <!-- About Section -->
   <section id="about">
     <div class="container-fluid text-white">
-      <h1>Sobre Mim</h1>
-      <h2>Eu sou um estudante de programação localizado em São Paulo, SP.
-        Tenho uma paixão por desafios e é exatamente isso que o universo da programação oferece. Estou a procura de uma
-        oportunidade de emprego para aprender e contribuir em projetos. <a href="#title">Me dê essa oportunidade!</a>
-      </h2>
+      <div class="row">
+        <div class="aboutBox col-lg-12 img-box">
+          <img src="./img/avatar.png" alt="henrique-avatar" class="henriqueAvatar">
+        </div>
+        <div class="aboutBox col-lg-12">
+          <h1 class="aboutTitle">Sobre Eu</h1>
+          <h2 class="aboutText">Eu sou um estudante de programação localizado em São Paulo, SP.
+            Tenho uma paixão por desafios e é exatamente isso que o universo da programação oferece. Estou a procura de
+            uma
+            oportunidade de emprego para aprender e contribuir em projetos. <a href="#contact">Me dê essa
+              oportunidade!</a>
+          </h2>
+        </div>
+      </div>
     </div>
   </section>
 
