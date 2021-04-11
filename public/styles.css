@@ -4,6 +4,9 @@ body {
 
 /* Title Section */
 
+.navbar {
+    background-color: black;
+}
 
 .icone-navbar{
     font-family: 'Anton', sans-serif;
