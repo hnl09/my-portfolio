@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Title Section */
+
+.navbar {
+    background-color: black;
+}
+
+.icone-navbar {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+    margin-right: 0px;
+    margin-left: 2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.banner-img {
+    background-image: url(./img/banner-img.jpg);
+    background-size: cover;
+
+}
+
+/* Opacidade para imagem */
+
+.mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.container-fluid {
+    padding: 0px 0px 0px 0px;
+}
+
+.header-text {
+    margin: 22rem 2rem 0 2rem;
+}
+
+
+/* Skills Section */
+
+.row {
+    margin: 5rem 7rem;
+}
+
+.skillsBox {
+    text-align: center;
+}
+
+.skillsTitle {
+    padding: 1.75rem 0 1.75rem 0
+}
+
+
+/* About Section */
+
+#about {
+    background-color: black;
+}
+
+.aboutRow {
+    margin: 0rem 7rem
+}
+
+.highlight-text {
+    color: rgb(52, 89, 255);
+}
+
+.aboutBox {
+    text-align: center;
+}
+
+.aboutTitle {
+    padding-top: 5rem;
+}
+
+.aboutText {
+    padding-bottom: 5rem;
+}
+
+.henriqueAvatar {
+    margin-top: 3rem;
+    display: inline;
+    width: 15%;
+}
+
+/* footer */
+
+#footer {
+    background-color: white;
+}
+
+
+.footerBox {
+    margin-top: 1.25rem;
+    text-align: center;
+    position: relative;
+}
+
+.footerText {
+    text-align: center;
+    color: gray;
+    margin-top: 1.25rem;
+}
+
+@media (max-width: 480px) {
+    .henriqueAvatar {
+        width: 150%;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .henriqueAvatar {
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+    .henriqueAvatar {
+        width: 25%;
+    }
+}
